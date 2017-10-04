@@ -1,0 +1,292 @@
+
+@font-face
+	font-family: 'bebas_neuebold'
+	src: url('bebasneue_bold-webfont.woff2') format('woff2'), url('bebasneue_bold-webfont.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+body
+	font-family: 'bebas_neuebold', sans-serif
+
+p
+	font-size: 12px
+.out
+	margin: 0 auto
+	margin-top: 24px
+	max-width: 1400px
+	+r(600)
+		width: 600px
+		
+
+.blog-section
+	background: url(../img/blog__left.png) 
+	width: 100%
+	height: 62px
+
+	
+.header 
+	top: 0
+	left: 0
+	right: 0
+	margin-top: 24px
+	height: 40px
+	+r(340)
+		max-width: 320px
+.blog
+	background: #f2ae9c
+	margin-top: 21px
+	&__center
+		margin: 0 auto
+		background: #e8603c
+		max-width: 940px
+		box-shadow: 0px 0px 0px 10px #FFF
+		height: 62px
+
+	h1
+		font-size: 24pt
+		color: #FFF
+		padding-top: 13px
+		padding-left: 18px
+	
+
+.container
+	max-width: 940px
+	margin: 0 auto
+	&__logo
+		margin-top: 4px
+		float: left
+	
+	
+		
+	
+.navigation
+	list-style: none
+	white-space: nowrap
+	float: right
+	margin-top: 14px
+	
+	
+	&__item
+		float: left
+		margin-left: 27px
+
+		
+	&__link
+		text-decoration: none
+		color: #b9b9b9
+		font-size: 16pt
+		&:hover
+			color: #e8603c
+		+r(340)
+			font-size: 8pt
+			float: left
+	+r(340)
+		margin: auto
+		
+
+
+
+.main
+	height: 100vh
+	margin-top: 24px
+	&__content
+		margin-top: 20px
+	&__date-orang
+		color: #e8603c
+		margin-top: 5px
+		font-size: 12pt
+	&__date
+		color: #bababa
+		margin-top: 1px
+		padding-bottom: 13px
+		font-family: sans-serif
+	&__topic
+		color: #e8603c
+		float: left
+		font-size: 18pt
+	&__text
+		float: left
+		color: #bababa
+		margin-top: 13px
+		color: #414141
+		font-family: sans-serif
+		line-height: 18px
+	
+.blog-Section
+	display: inline-block
+	flaot: left
+	width: 76.5%
+	&__icon
+		position: absolute
+		margin-left: -85px
+		+r(1050)
+			margin-left: 0px
+			z-index: 1
+		+r(340)
+			width: 10%
+
+	+r(901)
+		max-width: 580px
+	+r(768)
+		max-width: 480px
+	+r(350)
+		max-width: 320px
+
+.topic-block
+	display: inline-block
+	float: right
+	width: 78%
+	margin-bottom: 0px
+.date-block
+	display: inline-block
+	float: left
+	width: 22%
+.news-blok
+	float: left
+	max-width: 670px
+	&__line
+		margin-top: 47px
+		padding-bottom: 53px
+		width: 100%
+
+	&__text
+		margin-left: 20px
+		margin-top: 20px
+	&__foto
+		width: 100%
+	+r(901)
+		max-width: 580px
+	+r(768)
+		max-width: 480px
+	+r(350)
+		max-width: 320px
+	
+
+.post3
+	background: url(../img/post3.png) no-repeat center
+	width: 654px
+	height: 111px
+	margin-bottom: -6px
+	&__text
+		float: left
+		color: #bababa
+		margin-top: 21px
+		margin-left: 78px
+		color: #414141
+		font-family: sans-serif
+		line-height: 18px
+.date-text	
+	padding-top: 25px
+	padding-bottom: 0px
+.button-block
+	width: 670px
+	margin-top: -20px
+
+.button
+	float: left
+	text-decoration: none
+	display: block
+	width: 25px
+	color: #fff
+	background: #e8663c
+	height: 25px 
+	padding-top: 3px
+	text-align: center
+	font-size: 18px
+	margin-left: 4px
+	&__text-decoration
+		float: left
+		text-decoration: none
+		display: block
+		width: 25px
+		color: #fff
+		background: #f3b29d
+		height: 25px 
+		padding-top: 3px
+		text-align: center
+		font-size: 18px
+		margin-left: 5px
+		&:hover
+			float: left
+			text-decoration: none
+			display: block
+			width: 25px
+			color: #fff
+			background: #e8663c
+			height: 25px 
+			padding-top: 3px
+			text-align: center
+			font-size: 18px
+			margin-left: 5px
+
+
+.sidebar
+	display: inline-block
+	float: right
+	width: 23.5%
+	margin-top: 1px
+	&__body
+		height: 125px
+		margin-bottom: 17px
+		margin-left: 4px
+		a
+			
+			text-decoration: none
+			color: #464646
+	&__p
+		font-family: sans-serif
+		margin-top: 4px
+		padding-top: 0px
+	&__art
+		margin-top: 20px
+	+r(645)
+	 	display: none
+
+
+
+.container2
+	display: grid
+	grid-template-columns: fit-content(188px) fit-content(188px) 1fr
+	grid-gap: 5px
+	box-sizing: border-box
+	width: 220px
+	img
+		max-width: 92%
+		height: 15px
+		margin-left: 13px
+		margin-top: 3px
+	h3
+		font-size: 14pt
+	
+		
+
+.single-item
+	width: 100%
+
+.slick-prev,.slick-next
+	z-index: 1;
+	position: absolute
+	left: 18px 
+	top: 50% 
+	width: 50px 
+	background: pink 
+	height: 50px 
+	transform: translate(0,-50%)
+	background: url(../img/prev.png) no-repeat
+.slick-next
+	background: url(../img/next.png) no-repeat
+	left: auto
+	right: 5px 
+	
+
+
+
+
+
+
+
+
+
+
+
+
